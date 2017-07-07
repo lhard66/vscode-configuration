@@ -1,0 +1,15 @@
+{
+    "window.zoomLevel": 1,
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.minimap.enabled": false,
+    "extensions.ignoreRecommendations": false,
+    "emmet.syntaxProfiles": {
+        "vue": "html",
+        "vue-html": "html"
+    },
+    "files.associations": {
+        // "*.vue": "html"
+        "*.vue": "vue"
+    }
+}
