@@ -34,5 +34,19 @@
 			"@${1:event}=\"${2:handle}\"$0"
 		],
 		"description": "@event=\"handle\""
+	},
+	"vue v-for": {
+		"prefix": "vFor",
+		"body":[
+			"v-for=\"${1:item} in ${2:items}\"$0"
+		],
+		"description": "v-for(\"item in items\")"
+	},
+	"vue v-bind": {
+		"prefix": "vBind",
+		"body":[
+			":${1:prop}=\"${2:data}\"$0"
+		],
+		"description": ":prop=\"data\""
 	}
 }
