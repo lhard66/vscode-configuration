@@ -1,5 +1,5 @@
 {
-/*
+	/*
 	// Place your snippets for Vue-html here. Each snippet is defined under a snippet name and has a prefix, body and 
 	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
 	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
@@ -14,11 +14,25 @@
 		"description": "Log output to console"
 	}
 */
-	"Print to console": {
+	"vue v-if": {
 		"prefix": "vIf",
 		"body": [
 			"v-if=\"${1:condition}\"$0"
 		],
-		"description": "vue v-if"
+		"description": "v-if=\"condition\""
+	},
+	"vue v-model": {
+		"prefix": "vModel",
+		"body": [
+			"v-model=\"${1:something}\"$0"
+		],
+		"description": "v-model=\"something\""
+	},
+	"vue v-on": {
+		"prefix": "vOn",
+		"body": [
+			"@${1:event}=\"${2:handle}\"$0"
+		],
+		"description": "@event=\"handle\""
 	}
 }
