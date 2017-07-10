@@ -11,5 +11,15 @@
     "files.associations": {
         // "*.vue": "html"
         "*.vue": "vue"
-    }
+    },
+    "eslint.options": {
+        "configFile": "D:/Videos/github/eslint/.eslintrc.js",
+        "plugins": ["html"]
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "html",
+        "vue"
+    ]
 }
