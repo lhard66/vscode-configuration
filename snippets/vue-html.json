@@ -48,5 +48,19 @@
 			":${1:prop}=\"${2:data}\"$0"
 		],
 		"description": ":prop=\"data\""
+	},
+	"vue v-text": {
+		"prefix": "vText",
+		"body":[
+			"v-text=\"${1:msg}\"$0"
+		],
+		"description": "v-text=\"msg\""
+	},
+	"vue v-html": {
+		"prefix": "vHtml",
+		"body":[
+			"v-html=\"${1:html}\"$0"
+		],
+		"description": "v-text=\"html\""
 	}
 }
