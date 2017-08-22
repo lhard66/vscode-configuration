@@ -8,6 +8,7 @@
         "vue": "html",
         "vue-html": "html"
     },
+	"emmet.triggerExpansionOnTab": true,
     "files.associations": {
         // "*.vue": "html"
         "*.vue": "vue"
