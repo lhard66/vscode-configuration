@@ -4,15 +4,19 @@
     "workbench.colorTheme": "Visual Studio Dark",
     "editor.minimap.enabled": false,
     "extensions.ignoreRecommendations": false,
-    "emmet.syntaxProfiles": {
+
+    "emmet.includeLanguages": {
         "vue": "html",
         "vue-html": "html"
     },
-	"emmet.triggerExpansionOnTab": true,
+    "emmet.triggerExpansionOnTab": true,
+    
     "files.associations": {
-        // "*.vue": "html"
-        "*.vue": "vue"
+        "*.vue": "vue",
+        "*.wxml": "html",
+        "*.wxss": "css"
     },
+
     "eslint.options": {
         // "configFile": "D:/Videos/github/eslint/.eslintrc.js",
         "plugins": ["html"]
@@ -22,8 +26,18 @@
         "javascriptreact",
         "html",
         "vue"
-    ],
+    ],    
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.parameterHints": false,
+    "editor.wordBasedSuggestions": true,
+    "editor.snippetSuggestions": "inline",
+
     "workbench.startupEditor": "newUntitledFile",
-    "todohighlight.isEnable": true
-    // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.panel.location": "bottom"
 }
