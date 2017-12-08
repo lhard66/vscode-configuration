@@ -27,17 +27,15 @@
         "html",
         "vue"
     ],    
-    "editor.quickSuggestions": {
-        "other": true,
-        "comments": true,
-        "strings": true
-    },
+    "editor.quickSuggestions": false,
     "editor.parameterHints": false,
-    "editor.wordBasedSuggestions": true,
+    "editor.wordBasedSuggestions": false,
     "editor.snippetSuggestions": "inline",
 
     "workbench.startupEditor": "newUntitledFile",
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "workbench.iconTheme": "vscode-icons",
-    "workbench.panel.location": "bottom"
+    "workbench.panel.location": "bottom",
+
+    "search.followSymlinks": false
 }
